@@ -329,7 +329,11 @@ message KnnHint {
         bool indexInexact = 1;
         bool noIndex = 2;
         IndexType indexType = 3;
-        string indexName = 4;
+        IndexNameKnnHint indexNameHint = 4;
+    }
+    message IndexNameKnnHint {
+        string name = 1;
+        map<string,string> parameters = 2;
     }
 }
 
