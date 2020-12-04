@@ -79,6 +79,7 @@ enum IndexType {
     SUPERBIT_LSH = 7;
     NONBUCKETING_SUPERBIT_LSH = 8;
     GG = 9;
+    RANDOM = 10;
 }
 
 /** A status as returned by Cottontail DB in response to a successful action that has no dedicated return type. */
